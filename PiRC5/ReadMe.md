@@ -18,6 +18,8 @@ Community feedback is welcome.
 
 ## Why PiRC5 Is Needed
 
+*Building on the ecosystem infrastructure established by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC) to enable seamless cross-app interoperability.*
+
 | Problem | Current State | PiRC5 Solution |
 |---|---|---|
 | **Isolated Balances** | Each app has its own ZYN balance | Unified on-chain balance accessible from any app |

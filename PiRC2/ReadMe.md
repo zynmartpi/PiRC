@@ -21,15 +21,17 @@ Community feedback is welcome. Pioneers, developers, and merchants are encourage
 
 ## Key Improvements Over PiRC2
 
+*Building upon the foundational work of [PiNetwork/PiRC2](https://github.com/PiNetwork/PiRC/tree/main/PiRC2).*
+
 | Feature | PiRC2 (Original) | ZYN Enhanced |
 |---|---|---|
-| **Grace Period** | ❌ Failed = auto-cancel | ✅ 3-day grace period before cancellation |
-| **Dispute Resolution** | ❌ None | ✅ On-chain dispute with merchant bond |
-| **Merchant Staking** | ❌ None | ✅ Merchants must stake ZYN to register services |
-| **ZYN Token Support** | ❌ Pi only | ✅ Accepts both Pi and ZYN as payment |
-| **Tiered Pricing** | ❌ Fixed price | ✅ Discount tiers for long-term subscribers |
-| **Trial Guard** | Basic | ✅ Enhanced: trial abuse prevention + cooldown |
-| **Refund Mechanism** | ❌ None | ✅ Pro-rata refund on cancellation |
-| **Pause/Resume** | ❌ None | ✅ Subscribers can pause subscriptions |
-| **Batch Processing** | Basic | ✅ Enhanced with retry logic + priority queuing |
-| **Cross-App Subscriptions** | ❌ Single app | ✅ Cross-app subscription portability |
+| **Grace Period** | 🔜 Failed = auto-cancel | ✅ 3-day grace period before cancellation |
+| **Dispute Resolution** | 🔜 Not yet covered | ✅ On-chain dispute with merchant bond |
+| **Merchant Staking** | 🔜 Not yet covered | ✅ Merchants must stake ZYN to register services |
+| **ZYN Token Support** | ✅ Pi only | ✅ Accepts both Pi and ZYN as payment |
+| **Tiered Pricing** | 🔜 Fixed price | ✅ Discount tiers for long-term subscribers |
+| **Trial Guard** | ✅ Basic | ✅ Enhanced: trial abuse prevention + cooldown |
+| **Refund Mechanism** | 🔜 Not yet covered | ✅ Pro-rata refund on cancellation |
+| **Pause/Resume** | 🔜 Not yet covered | ✅ Subscribers can pause subscriptions |
+| **Batch Processing** | ✅ Basic | ✅ Enhanced with retry logic + priority queuing |
+| **Cross-App Subscriptions** | 🔜 Single app scope | ✅ Cross-app subscription portability |

@@ -18,6 +18,8 @@ Community feedback is welcome.
 
 ## Why PiRC4 Is Needed
 
+*Extending the ecosystem framework established by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC) with a dedicated reputation layer.*
+
 PiRC1-3 rely on reputation for visibility, fees, and dispute outcomes, but **none define how reputation is calculated or protected**. PiRC4 fills this gap:
 
 | Problem | Current State | PiRC4 Solution |

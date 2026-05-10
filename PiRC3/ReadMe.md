@@ -19,6 +19,8 @@ Community feedback is welcome. Pioneers, developers, and merchants are encourage
 
 ## Why PiRC3 Is Needed
 
+*Complementing the token launch (PiRC1) and subscription (PiRC2) foundations laid by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC).*
+
 PiRC1 covers token launches. PiRC2 covers subscriptions. But **neither addresses the core commerce flow**: listing products → accepting payments → ensuring delivery → resolving disputes. Current Pi apps handle this off-chain with centralized backends, creating trust issues and single points of failure.
 
 PiRC3 brings the full marketplace stack on-chain:

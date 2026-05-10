@@ -21,14 +21,16 @@ Community feedback is essential. Pioneers, developers, and merchants are encoura
 
 ## Key Innovations Beyond PiRC1
 
-| Feature | PiRC1 | ZYN (Ours) |
+*Building upon the foundational work of [PiNetwork/PiRC1](https://github.com/PiNetwork/PiRC/tree/main/PiRC1).*
+
+| Feature | PiRC1 | ZYN (Extended) |
 |---------|-------|------------|
-| **Merchant Token Utility** | ❌ Not addressed | ✅ Merchants stake ZYN for visibility & reduced fees |
-| **Marketplace Engagement** | Generic app engagement | Commerce-specific: purchases, reviews, referrals |
-| **Loyalty Reward Mechanism** | ❌ Not addressed | ✅ ZYN cashback, spin wheel, promo codes |
-| **Cross-App Transferability** | ❌ Single app | ✅ ZYN usable across all Pi apps in the ecosystem |
-| **Price Floor Protection** | ~23.8% of list (Design 1) | ✅ Enhanced with merchant staking lock + burn mechanism |
-| **Merchant-Community Alignment** | ❌ Not addressed | ✅ Merchants must stake ZYN proportional to sales volume |
-| **Governance** | ❌ Not addressed | ✅ ZYN holders vote on marketplace policies |
-| **Deflationary Mechanism** | ❌ None | ✅ Transaction fee burn (0.5% of each ZYN transaction) |
+| **Merchant Token Utility** | 🔜 Not yet addressed | ✅ Merchants stake ZYN for visibility & reduced fees |
+| **Marketplace Engagement** | ✅ Generic app engagement | ✅ Commerce-specific: purchases, reviews, referrals |
+| **Loyalty Reward Mechanism** | 🔜 Not yet addressed | ✅ ZYN cashback, spin wheel, promo codes |
+| **Cross-App Transferability** | 🔜 Single app scope | ✅ ZYN usable across all Pi apps in the ecosystem |
+| **Price Floor Protection** | ✅ ~23.8% of list (Design 1) | ✅ Enhanced with merchant staking lock + burn mechanism |
+| **Merchant-Community Alignment** | 🔜 Not yet addressed | ✅ Merchants must stake ZYN proportional to sales volume |
+| **Governance** | 🔜 Not yet addressed | ✅ ZYN holders vote on marketplace policies |
+| **Deflationary Mechanism** | 🔜 Not yet addressed | ✅ Transaction fee burn (0.5% of each ZYN transaction) |
 
