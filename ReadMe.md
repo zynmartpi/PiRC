@@ -29,19 +29,21 @@
 
 ## 🆚 Comparison with PiNetwork/PiRC
 
+*ZynMart PiRC builds upon and extends the foundational work of [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC). We acknowledge and respect their pioneering contributions to the Pi ecosystem.*
+
 | Feature | PiNetwork/PiRC | ZynMart/PiRC |
 |---|---|---|
-| **Token Launch** | PiRC1 (2 allocation designs) | PiRC1+ (hybrid allocation + merchant reserve + burn) |
-| **Subscriptions** | PiRC2 (basic recurring) | PiRC2+ (grace periods + disputes + tiered pricing) |
-| **Marketplace** | ❌ Not covered | ✅ PiRC3 (full on-chain commerce protocol) |
-| **Reputation** | ❌ Not covered | ✅ PiRC4 (on-chain trust score system) |
-| **Wallet Interop** | ❌ Not covered | ✅ PiRC5 (cross-app wallet protocol) |
-| **Merchant Staking** | ❌ Not covered | ✅ All proposals (merchant skin-in-the-game) |
-| **Deflationary Burn** | ❌ None | ✅ 0.5% transaction burn |
-| **Cross-App Utility** | ❌ Single app | ✅ ZYN usable across ecosystem |
-| **Dispute Resolution** | ❌ None | ✅ Community jury + council system |
-| **Buyer Protection** | ❌ None | ✅ Escrow + grace periods + pro-rata refunds |
-| **Governance** | ❌ None | ✅ ZYN holder voting + cross-app council |
+| **Token Launch** | ✅ PiRC1 (2 allocation designs) | ✅ PiRC1+ (hybrid allocation + merchant reserve + burn) |
+| **Subscriptions** | ✅ PiRC2 (recurring payments) | ✅ PiRC2+ (grace periods + disputes + tiered pricing) |
+| **Marketplace** | 🔜 Not yet covered | ✅ PiRC3 (on-chain commerce protocol) |
+| **Reputation** | 🔜 Not yet covered | ✅ PiRC4 (on-chain trust score system) |
+| **Wallet Interop** | 🔜 Not yet covered | ✅ PiRC5 (cross-app wallet protocol) |
+| **Merchant Staking** | 🔜 Not yet covered | ✅ All proposals (merchant skin-in-the-game) |
+| **Deflationary Burn** | 🔜 Not yet covered | ✅ 0.5% transaction burn |
+| **Cross-App Utility** | 🔜 Single app scope | ✅ ZYN usable across ecosystem |
+| **Dispute Resolution** | 🔜 Not yet covered | ✅ Community jury + council system |
+| **Buyer Protection** | 🔜 Not yet covered | ✅ Escrow + grace periods + pro-rata refunds |
+| **Governance** | 🔜 Not yet covered | ✅ ZYN holder voting + cross-app council |
 
 ---
 
