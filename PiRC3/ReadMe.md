@@ -19,17 +19,19 @@ Community feedback is welcome. Pioneers, developers, and merchants are encourage
 
 ## Why PiRC3 Is Needed
 
-*Complementing the token launch (PiRC1) and subscription (PiRC2) foundations laid by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC).*
+*Complementing the token launch (PiRC1) and subscription (PiRC2) foundations laid by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC) with a dedicated commerce protocol.*
 
-PiRC1 covers token launches. PiRC2 covers subscriptions. But **neither addresses the core commerce flow**: listing products → accepting payments → ensuring delivery → resolving disputes. Current Pi apps handle this off-chain with centralized backends, creating trust issues and single points of failure.
+PiRC1 covers token launches. PiRC2 covers subscriptions. PiRC3 completes the ecosystem by addressing the **core commerce flow**: listing products → accepting payments → ensuring delivery → resolving disputes.
 
-PiRC3 brings the full marketplace stack on-chain:
+### What PiRC3 Adds
 
-| Feature | Current (Off-Chain) | PiRC3 (On-Chain) |
-|---|---|---|
-| **Product Listings** | Centralized database | On-chain with merchant stake |
-| **Payments** | Pi SDK + backend approval | Smart contract escrow |
-| **Delivery Verification** | Manual / trust-based | On-chain proof + timeout |
-| **Disputes** | Centralized admin | Community jury + bond |
-| **Search Ranking** | Algorithm / paid ads | Reputation-weighted |
-| **Fee Distribution** | Platform takes all | Burn + LP + merchant reward |
+| Innovation | Description |
+|---|---|
+| **On-Chain Product Listings** | Products listed on-chain with merchant stake commitment — transparent and verifiable |
+| **Smart Contract Escrow** | Payments held in escrow until delivery confirmed — buyer protection by design |
+| **Delivery Proof & Auto-Confirmation** | Merchants submit on-chain proof; 7-day auto-confirm protects from buyer silence |
+| **Community Jury Disputes** | 5 randomly selected ZYN stakers resolve disputes — decentralized and fair |
+| **Reputation-Weighted Search** | Trust score + stake + sales volume determine ranking — quality over ad spend |
+| **Transparent Fee Distribution** | 0.5% burn + 1% LP + 0.5% treasury — every fee is on-chain and accounted for |
+| **Merchant Stake Tiers** | Bronze/Silver/Gold/Platinum — merchants commit ZYN proportional to their ambitions |
+| **Appeal Process** | Either party can appeal with 50 ZYN deposit — 7 new jurors, final decision |

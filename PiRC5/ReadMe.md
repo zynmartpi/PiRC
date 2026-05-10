@@ -20,10 +20,16 @@ Community feedback is welcome.
 
 *Building on the ecosystem infrastructure established by [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC) to enable seamless cross-app interoperability.*
 
-| Problem | Current State | PiRC5 Solution |
-|---|---|---|
-| **Isolated Balances** | Each app has its own ZYN balance | Unified on-chain balance accessible from any app |
-| **No Cross-App Payments** | Can't pay in App B with ZYN earned in App A | Seamless cross-app token transfers |
-| **Duplicate KYC** | Each app verifies identity separately | Shared identity verification via Pi SDK |
-| **No Transaction Portability** | Transaction history locked per app | Unified transaction ledger across apps |
-| **Manual Withdrawals** | Must withdraw from one app to use in another | Direct inter-app transfers via smart contract |
+### What PiRC5 Adds
+
+| Innovation | Description |
+|---|---|
+| **Unified On-Chain Balance** | One ZYN balance accessible from any integrated app — no more isolated wallets |
+| **Cross-App Payments** | Pay in App B with ZYN earned in App A — seamless token transfers via smart contract |
+| **Dual-Layer Sync** | On-chain (Soroban) for authority + Firestore cache for real-time UI — best of both worlds |
+| **App Allowance System** | Users approve per-app spending limits — full control, no app can drain balance |
+| **Atomic Transactions** | Cross-app transfers are all-or-nothing — either fully complete or fully rolled back |
+| **Shared Identity** | Pi SDK authentication works across all apps — no duplicate verification needed |
+| **Unified Transaction Ledger** | Full history follows the user across apps — transparent and portable |
+| **Integration Tiers** | Accept → Reward → Govern → Launch — progressive app integration with stake requirements |
+| **Security Model** | Rate limits, emergency freeze, anomaly detection — user funds always protected |

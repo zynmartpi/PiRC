@@ -19,18 +19,18 @@ Community feedback is essential. Pioneers, developers, and merchants are encoura
 
 ---
 
-## Key Innovations Beyond PiRC1
+## What PiRC1+ Adds to the Pi Ecosystem
 
-*Building upon the foundational work of [PiNetwork/PiRC1](https://github.com/PiNetwork/PiRC/tree/main/PiRC1).*
+*Extending the token launch foundation of [PiNetwork/PiRC1](https://github.com/PiNetwork/PiRC/tree/main/PiRC1) with marketplace-native innovations.*
 
-| Feature | PiRC1 | ZYN (Extended) |
-|---------|-------|------------|
-| **Merchant Token Utility** | 🔜 Not yet addressed | ✅ Merchants stake ZYN for visibility & reduced fees |
-| **Marketplace Engagement** | ✅ Generic app engagement | ✅ Commerce-specific: purchases, reviews, referrals |
-| **Loyalty Reward Mechanism** | 🔜 Not yet addressed | ✅ ZYN cashback, spin wheel, promo codes |
-| **Cross-App Transferability** | 🔜 Single app scope | ✅ ZYN usable across all Pi apps in the ecosystem |
-| **Price Floor Protection** | ✅ ~23.8% of list (Design 1) | ✅ Enhanced with merchant staking lock + burn mechanism |
-| **Merchant-Community Alignment** | 🔜 Not yet addressed | ✅ Merchants must stake ZYN proportional to sales volume |
-| **Governance** | 🔜 Not yet addressed | ✅ ZYN holders vote on marketplace policies |
-| **Deflationary Mechanism** | 🔜 Not yet addressed | ✅ Transaction fee burn (0.5% of each ZYN transaction) |
+| Innovation | Description |
+|---|---|
+| **Merchant Staking** | Merchants stake ZYN for visibility, reduced fees, and marketplace commitment — creating natural buy pressure |
+| **Commerce Engagement** | Marketplace-specific scoring: purchases, reviews, referrals — real commerce signals over generic usage |
+| **Loyalty & Rewards** | ZYN cashback, spin wheel, promo codes, referral bonuses — rewarding active marketplace participants |
+| **Cross-App Utility** | ZYN usable across all Pi apps in the ecosystem — not locked to a single application |
+| **Enhanced Price Floor** | Merchant staking lock + burn mechanism strengthens floor to ~30% of list price (vs ~23.8%) |
+| **Deflationary Burn** | 0.5% of every ZYN transaction burned — supply decreases as marketplace activity grows |
+| **Governance** | ZYN holders vote on marketplace policies, fees, and protocol upgrades |
+| **Merchant-Community Alignment** | Merchants must stake proportional to sales volume — skin in the game for all participants |
 

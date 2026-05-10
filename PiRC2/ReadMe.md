@@ -19,19 +19,19 @@ Community feedback is welcome. Pioneers, developers, and merchants are encourage
 
 ---
 
-## Key Improvements Over PiRC2
+## What PiRC2+ Adds to the Pi Ecosystem
 
-*Building upon the foundational work of [PiNetwork/PiRC2](https://github.com/PiNetwork/PiRC/tree/main/PiRC2).*
+*Extending the subscription contract foundation of [PiNetwork/PiRC2](https://github.com/PiNetwork/PiRC/tree/main/PiRC2) with buyer protection and merchant accountability.*
 
-| Feature | PiRC2 (Original) | ZYN Enhanced |
-|---|---|---|
-| **Grace Period** | 🔜 Failed = auto-cancel | ✅ 3-day grace period before cancellation |
-| **Dispute Resolution** | 🔜 Not yet covered | ✅ On-chain dispute with merchant bond |
-| **Merchant Staking** | 🔜 Not yet covered | ✅ Merchants must stake ZYN to register services |
-| **ZYN Token Support** | ✅ Pi only | ✅ Accepts both Pi and ZYN as payment |
-| **Tiered Pricing** | 🔜 Fixed price | ✅ Discount tiers for long-term subscribers |
-| **Trial Guard** | ✅ Basic | ✅ Enhanced: trial abuse prevention + cooldown |
-| **Refund Mechanism** | 🔜 Not yet covered | ✅ Pro-rata refund on cancellation |
-| **Pause/Resume** | 🔜 Not yet covered | ✅ Subscribers can pause subscriptions |
-| **Batch Processing** | ✅ Basic | ✅ Enhanced with retry logic + priority queuing |
-| **Cross-App Subscriptions** | 🔜 Single app scope | ✅ Cross-app subscription portability |
+| Innovation | Description |
+|---|---|
+| **Grace Periods** | 3-day buffer before cancellation on failed payment — subscribers can top up and keep their subscription |
+| **Dispute Resolution** | On-chain dispute mechanism with merchant bond — fair, transparent, decentralized |
+| **Merchant Staking** | Merchants must stake ZYN to register services — ensures commitment and accountability |
+| **Dual Token Support** | Accepts both Pi and ZYN as subscription payment — more flexibility for users |
+| **Tiered Pricing** | 5-15% discounts for quarterly/annual commitments — rewards loyal subscribers |
+| **Enhanced Trial Guard** | Trial abuse prevention with cooldown period — protects merchants from exploitation |
+| **Pro-Rata Refunds** | Fair refund on cancellation — 90% returned, 10% burned (not kept by merchant) |
+| **Pause & Resume** | Subscribers can pause subscriptions up to 30 days/year — real-world flexibility |
+| **Enhanced Batch Processing** | Retry logic + priority queuing + grace period awareness — more reliable billing |
+| **Cross-App Subscriptions** | Subscribe once, use across multiple Pi apps — ecosystem-wide portability |

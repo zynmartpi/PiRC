@@ -27,23 +27,25 @@
 
 ---
 
-## 🆚 Comparison with PiNetwork/PiRC
+## � What ZynMart PiRC Adds to the Pi Ecosystem
 
-*ZynMart PiRC builds upon and extends the foundational work of [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC). We acknowledge and respect their pioneering contributions to the Pi ecosystem.*
+*ZynMart PiRC is a community contribution to the Pi ecosystem, extending the foundational work of [PiNetwork/PiRC](https://github.com/PiNetwork/PiRC) with marketplace-native innovations.*
 
-| Feature | PiNetwork/PiRC | ZynMart/PiRC |
+| Contribution | Proposal | Description |
 |---|---|---|
-| **Token Launch** | ✅ PiRC1 (2 allocation designs) | ✅ PiRC1+ (hybrid allocation + merchant reserve + burn) |
-| **Subscriptions** | ✅ PiRC2 (recurring payments) | ✅ PiRC2+ (grace periods + disputes + tiered pricing) |
-| **Marketplace** | 🔜 Not yet covered | ✅ PiRC3 (on-chain commerce protocol) |
-| **Reputation** | 🔜 Not yet covered | ✅ PiRC4 (on-chain trust score system) |
-| **Wallet Interop** | 🔜 Not yet covered | ✅ PiRC5 (cross-app wallet protocol) |
-| **Merchant Staking** | 🔜 Not yet covered | ✅ All proposals (merchant skin-in-the-game) |
-| **Deflationary Burn** | 🔜 Not yet covered | ✅ 0.5% transaction burn |
-| **Cross-App Utility** | 🔜 Single app scope | ✅ ZYN usable across ecosystem |
-| **Dispute Resolution** | 🔜 Not yet covered | ✅ Community jury + council system |
-| **Buyer Protection** | 🔜 Not yet covered | ✅ Escrow + grace periods + pro-rata refunds |
-| **Governance** | 🔜 Not yet covered | ✅ ZYN holder voting + cross-app council |
+| **Merchant Staking & Alignment** | PiRC1+ | Merchants stake ZYN for visibility, reduced fees, and marketplace commitment |
+| **Deflationary Burn Mechanism** | PiRC1+ | 0.5% of every ZYN transaction burned — supply decreases as activity grows |
+| **Commerce Engagement Scoring** | PiRC1+ | Marketplace-specific engagement: purchases, reviews, referrals — not just generic usage |
+| **Loyalty & Rewards Layer** | PiRC1+ | ZYN cashback, spin wheel, promo codes, referral bonuses, review incentives |
+| **Grace Periods for Subscriptions** | PiRC2+ | 3-day grace before cancellation — protects subscribers from instant loss |
+| **On-Chain Dispute Resolution** | PiRC2+ / PiRC3 | Community jury system with merchant bond — fair, transparent, decentralized |
+| **Tiered Subscription Pricing** | PiRC2+ | Discounts for long-term commitments (5-15%) — rewards loyalty |
+| **Pause & Resume Subscriptions** | PiRC2+ | Subscribers can pause without cancelling — flexibility for real users |
+| **Pro-Rata Refunds** | PiRC2+ | Fair refund on cancellation — 90% returned, 10% burned |
+| **Decentralized Marketplace** | PiRC3 | Full on-chain commerce: escrow, delivery proof, search ranking, fee distribution |
+| **Reputation & Trust Scores** | PiRC4 | Manipulation-resistant on-chain trust — portable across all Pi apps |
+| **Cross-App Wallet Interoperability** | PiRC5 | Unified ZYN balance across ecosystem — earn in one app, spend in another |
+| **Community Governance** | All | ZYN holders vote on marketplace policies, fees, and protocol upgrades |
 
 ---
 
