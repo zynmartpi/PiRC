@@ -24,6 +24,8 @@
 | **PiRC3** | [Decentralized Marketplace Protocol](./PiRC3/ReadMe.md) | 🟢 Draft | On-chain escrow, community jury disputes, reputation-weighted search, and transparent fee distribution |
 | **PiRC4** | [Reputation & Trust Score System](./PiRC4/ReadMe.md) | 🟢 Draft | Manipulation-resistant on-chain reputation with cross-app portability and stake-weighted scoring |
 | **PiRC5** | [Cross-App Wallet Interoperability](./PiRC5/ReadMe.md) | 🟢 Draft | Unified wallet layer enabling seamless ZYN transfers, balance sync, and app allowance management |
+| **PiRC6** | [Smart Contract Reference Implementation](./PiRC6/ReadMe.md) | 🟢 Draft | Production-ready Rust/Soroban contracts for all proposals with CI/CD, testing, and formal verification |
+| **PiRC7** | [AI-Enhanced Ecosystem Intelligence](./PiRC7/ReadMe.md) | 🟢 Draft | Practical AI models for fraud detection, dynamic pricing, anomaly detection, and predictive analytics |
 
 ---
 
@@ -45,35 +47,46 @@
 | **Decentralized Marketplace** | PiRC3 | Full on-chain commerce: escrow, delivery proof, search ranking, fee distribution |
 | **Reputation & Trust Scores** | PiRC4 | Manipulation-resistant on-chain trust — portable across all Pi apps |
 | **Cross-App Wallet Interoperability** | PiRC5 | Unified ZYN balance across ecosystem — earn in one app, spend in another |
+| **Production Smart Contracts** | PiRC6 | Rust/Soroban implementation for all 5 proposals — not theoretical, deployable today |
+| **Fraud Detection (AI)** | PiRC7 | XGBoost model detects wash trading, review farming, Sybil attacks in real-time |
+| **Dynamic Pricing (AI)** | PiRC7 | RL agent optimizes listing boost costs based on demand, category, and merchant performance |
+| **Anomaly Detection (AI)** | PiRC7 | Isolation Forest detects unusual patterns with 4-level alert system |
+| **Predictive Analytics (AI)** | PiRC7 | Churn prediction, dispute triage, demand forecasting — AI assists, humans decide |
 | **Community Governance** | All | ZYN holders vote on marketplace policies, fees, and protocol upgrades |
 
 ---
 
-## 🏗️ Architecture Overview
+## 🏗️ Architecture & Documentation
+
+| Document | Description |
+|---|---|
+| [Architecture.md](./Architecture.md) | Full system architecture with data flows, contract interactions, and technology stack |
+| [Security-Audit-Framework.md](./Security-Audit-Framework.md) | Threat model, audit checklist, formal verification targets, bug bounty program |
+| [Developer-SDK.md](./Developer-SDK.md) | TypeScript/JavaScript SDK for integrating ZYN features into Pi applications |
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    ZYN ECOSYSTEM                         │
-│                                                         │
-│  ┌─────────┐  ┌─────────┐  ┌──────────┐  ┌──────────┐ │
-│  │ PiRC1   │  │ PiRC2   │  │  PiRC3   │  │  PiRC4   │ │
-│  │ Token   │  │ Subscri-│  │ Market-  │  │ Trust    │ │
-│  │ Design  │  │ ptions  │  │ place    │  │ Score    │ │
-│  └────┬────┘  └────┬────┘  └────┬─────┘  └────┬─────┘ │
-│       │            │            │              │        │
-│       └────────────┴────────────┴──────────────┘        │
-│                         │                                │
-│                    ┌────▼────┐                           │
-│                    │  PiRC5  │                           │
-│                    │ Wallet  │                           │
-│                    │ Interop │                           │
-│                    └─────────┘                           │
-│                                                         │
-│              ┌───────────────────┐                      │
-│              │  SOROBAN CHAIN    │                      │
-│              │  (Smart Contracts)│                      │
-│              └───────────────────┘                      │
-└─────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                       ZYN ECOSYSTEM                           │
+│                                                               │
+│  ┌─────────┐ ┌─────────┐ ┌──────────┐ ┌──────────┐         │
+│  │ PiRC1   │ │ PiRC2   │ │  PiRC3   │ │  PiRC4   │         │
+│  │ Token   │ │ Subscri-│ │ Market-  │ │ Trust    │         │
+│  │ Design  │ │ ptions  │ │ place    │ │ Score    │         │
+│  └────┬────┘ └────┬────┘ └────┬─────┘ └────┬─────┘         │
+│       └───────────┴───────────┴─────────────┘                │
+│                         │                                     │
+│                    ┌────▼────┐                                │
+│                    │  PiRC5  │   ← Cross-App Wallet Interop   │
+│                    └────┬────┘                                │
+│                         │                                     │
+│              ┌──────────▼──────────┐                          │
+│              │   PiRC6 (Soroban)   │  ← Smart Contracts (Rust)│
+│              └──────────┬──────────┘                          │
+│                         │                                     │
+│              ┌──────────▼──────────┐                          │
+│              │   PiRC7 (AI Layer)   │  ← Fraud, Pricing, ML   │
+│              └─────────────────────┘                          │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
